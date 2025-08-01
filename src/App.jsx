@@ -61,6 +61,7 @@ const item9 = {
 
   return (
     <>
+    <img className='Logo' src='src/pokemon-logo.jpg' />
     <div className='lista'>
      {
       personagens.map(function (umPersonagem){
